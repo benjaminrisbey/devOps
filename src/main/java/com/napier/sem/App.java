@@ -3,6 +3,9 @@ package com.napier.sem;
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Boo yah! This is working!");
+        for (int i = 5; i > 0; i--){
+            System.out.println(i);
+        }
+        System.out.println("WORKING!");
     }
 }
